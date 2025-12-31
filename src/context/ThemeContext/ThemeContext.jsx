@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-
+// theme context
 const ThemeContext = createContext(null);
 
 export const ThemeProvider = ({ children }) => {
