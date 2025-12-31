@@ -11,7 +11,7 @@ import {
   FaTicketAlt,
 } from "react-icons/fa";
 import Loading from "../Loading/Loading";
-
+// Latest Ticket
 const LatestTicket = () => {
   const axiosSecure = useAxiosSecure();
   const { isDarkMode } = useTheme();
