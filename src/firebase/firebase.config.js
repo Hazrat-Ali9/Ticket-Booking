@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-
+// Firebase config
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
