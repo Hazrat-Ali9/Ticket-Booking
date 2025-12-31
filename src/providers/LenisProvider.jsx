@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import Lenis from "lenis";
-
+// Provider
 export let lenisInstance = null;
 
 const LenisProvider = ({ children }) => {
