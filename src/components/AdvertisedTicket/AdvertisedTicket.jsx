@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import { useQuery } from "@tanstack/react-query";
 import useAxiosSecure from "../../hooks/useAxiosSecure";
 import { useTheme } from "../../context/ThemeContext/ThemeContext";
-
+// adversised ticket
 import {
   FaBus,
   FaGift,
