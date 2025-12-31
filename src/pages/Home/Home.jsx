@@ -5,7 +5,7 @@ import LatestTicket from '../../components/LatestTicket/LatestTicket';
 import WhyChooseUs from '../../components/WhyChooseUs/WhyChooseUs';
 import PopularRoutes from '../../components/PopularRoutes/PopularRoutes';
 import Testimonials from '../../components/Testimonials/Testimonials';
-
+// Home jsx
 const Home = () => {
     return (
         <div>
