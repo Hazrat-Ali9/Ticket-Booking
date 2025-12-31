@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import useAxiosSecure from "../../hooks/useAxiosSecure";
 import { useTheme } from "../../context/ThemeContext/ThemeContext";
 import UseAuth from "../../hooks/UseAuth";
-
+// Tickets booking
 import { FaBus, FaClock, FaMapMarkerAlt, FaTicketAlt, FaTimes, FaInfoCircle } from "react-icons/fa";
 import { MdOutlineAttachMoney, MdDateRange } from "react-icons/md";
 import { toast } from "react-toastify";
