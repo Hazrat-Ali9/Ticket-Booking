@@ -19,7 +19,7 @@ import Loading from "../../../components/Loading/Loading";
 import { Link } from "react-router";
 import { Tooltip } from "react-tooltip";
 import { motion } from "framer-motion"; // ✅ import framer-motion
-
+// profile 
 const Profile = () => {
   const { user, loading: authLoading } = UseAuth();
   const { role } = useRole();
