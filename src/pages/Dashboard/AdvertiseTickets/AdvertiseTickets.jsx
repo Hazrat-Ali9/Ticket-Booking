@@ -4,7 +4,7 @@ import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import { useTheme } from "../../../context/ThemeContext/ThemeContext";
 import Loading from "../../../components/Loading/Loading";
 import { Megaphone, Ticket, Calendar, DollarSign } from "lucide-react";
-
+// advertise tickets
 const AdvertiseTickets = () => {
   const axiosSecure = useAxiosSecure();
   const queryClient = useQueryClient();
