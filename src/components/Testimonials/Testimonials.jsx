@@ -1,29 +1,29 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext/ThemeContext";
-
+// Testimonial
 const testimonials = [
   {
     image: "https://avatars.githubusercontent.com/u/195456266?v=4",
-    name: "MD Amdad Islam",
-    handle: "@amdadislam01",
+    name: "",
+    handle: "",
     text: "This product completely changed how we approach pricing. Super smooth and effective.",
   },
   {
     image: "https://avatars.githubusercontent.com/u/92626624?v=4",
-    name: "Md Zahidul Islam",
-    handle: "@mdzahidulislam-dev",
+    name: "",
+    handle: "@",
     text: "Absolutely love it! The experience feels premium and very easy to use.",
   },
   {
     image: "https://avatars.githubusercontent.com/u/78620963?v=4",
-    name: "Md Rijoan Maruf",
-    handle: "@mdrijoanmaru",
+    name: "",
+    handle: "",
     text: "Helped us grow faster than expected. The results were visible in days.",
   },
   {
     image: "https://avatars.githubusercontent.com/u/219156601?v=4",
-    name: "Obaidullah Miazi",
-    handle: "@obaidullah-miazi-dev",
+    name: "",
+    handle: "",
     text: "Clean UI, great support, and excellent performance. Highly recommended!",
   },
 ];
