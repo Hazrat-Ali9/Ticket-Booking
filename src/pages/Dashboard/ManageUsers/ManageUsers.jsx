@@ -3,7 +3,7 @@ import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import { useQuery } from "@tanstack/react-query";
 import { useTheme } from "../../../context/ThemeContext/ThemeContext";
 import Swal from "sweetalert2";
-
+// manage user
 const ManageUsers = () => {
   const axiosSecure = useAxiosSecure();
   const { isDarkMode } = useTheme();
