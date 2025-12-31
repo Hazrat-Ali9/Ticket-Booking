@@ -12,7 +12,7 @@ import {
 import { auth } from "../firebase/firebase.config";
 import Swal from "sweetalert2";
 import { AuthContext } from "./AuthContext";
-
+// auth provider
 const googleProvider = new GoogleAuthProvider();
 
 const AuthProvider = ({ children }) => {
