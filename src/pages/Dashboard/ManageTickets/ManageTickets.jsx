@@ -4,7 +4,7 @@ import UseAuth from "../../../hooks/UseAuth";
 import { useTheme } from "../../../context/ThemeContext/ThemeContext";
 import Loading from "../../../components/Loading/Loading";
 import Swal from "sweetalert2";
-
+// manage tickets
 const ManageTickets = () => {
   const axiosSecure = useAxiosSecure();
   const [tickets, setTickets] = useState([]);
