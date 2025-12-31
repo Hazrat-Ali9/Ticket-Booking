@@ -12,7 +12,7 @@ import {
   FaChevronLeft,
   FaChevronRight,
 } from "react-icons/fa";
-
+// all tickets
 const AllTickets = () => {
   const axiosSecure = useAxiosSecure();
   const { isDarkMode } = useTheme();
