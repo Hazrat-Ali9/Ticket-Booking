@@ -16,7 +16,7 @@ import {
 } from "recharts";
 import Loading from "../../../components/Loading/Loading";
 import UseAuth from "../../../hooks/UseAuth";
-
+// Revenue overview
 const RevenueOverview = () => {
   const axiosSecure = useAxiosSecure();
   const { isDarkMode } = useTheme();
