@@ -5,7 +5,7 @@ import 'swiper/css/autoplay';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { useTheme } from '../../context/ThemeContext/ThemeContext';
 import { Link } from 'react-router';
-
+// Hero jsx
 const slides = [
   {
     title: 'Book Bus Tickets Easily',
