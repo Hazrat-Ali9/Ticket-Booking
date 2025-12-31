@@ -5,7 +5,7 @@ import { FiSun, FiMoon } from "react-icons/fi";
 import { FaBars, FaTimes, FaBus } from "react-icons/fa";
 import UseAuth from "../../hooks/UseAuth";
 import { Home, Ticket, LayoutDashboard, Info, Phone } from "lucide-react";
-
+// Navbar
 const Navbar = () => {
   const { user, loading, logoutUser } = UseAuth();
   const { isDarkMode, toggleTheme } = useTheme();
