@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router";
 import { AiOutlineCheckCircle } from "react-icons/ai";
-
+// payment cencel
 const PaymentCencel = () => {
   const navigate = useNavigate();
   return (
