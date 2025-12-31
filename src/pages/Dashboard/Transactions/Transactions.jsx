@@ -6,7 +6,7 @@ import Loading from "../../../components/Loading/Loading";
 import { useTheme } from "../../../context/ThemeContext/ThemeContext";
 import { format } from "date-fns";
 import { CreditCard, Calendar, DollarSign, Hash } from "lucide-react";
-
+// Transations
 const Transactions = () => {
   const axiosSecure = useAxiosSecure();
   const { user } = UseAuth();
