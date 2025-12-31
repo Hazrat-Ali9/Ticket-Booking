@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 import { useTheme } from "../../context/ThemeContext/ThemeContext";
 import { FaExclamationTriangle } from "react-icons/fa";
 import { motion } from "framer-motion";
-
+// Error page
 const ErrorPage = () => {
   const { isDarkMode } = useTheme();
   const navigate = useNavigate();
