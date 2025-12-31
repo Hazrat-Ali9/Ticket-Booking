@@ -104,15 +104,15 @@ const Footer = () => {
           <ul className="space-y-4 text-sm">
             <li className="flex items-center gap-3">
               <FaEnvelope className="text-orange-500" />
-              support@ticketbari.com
+              rhslion.com
             </li>
             <li className="flex items-center gap-3">
               <FaPhone className="text-orange-500" />
-              +880 1700-000000
+              +880 1745398755
             </li>
             <li className="flex items-center gap-3">
               <FaFacebook className="text-orange-500" />
-              facebook.com/ticketbari
+              facebook.com/rhslion
             </li>
           </ul>
         </motion.div>
@@ -143,11 +143,11 @@ const Footer = () => {
           isDarkMode ? "border-gray-800" : "border-gray-200"
         }`}
       >
-        © {new Date().getFullYear()} TicketBari. All rights reserved.
-        <p>Developed By <a href="https://amdadislam.netlify.app/" className="text-orange-500 font-bold">MD Amdad Islam</a></p>
+        © {new Date().getFullYear()} Rhslion. All rights reserved.
+        <p>Developed By <a href="" className="text-orange-500 font-bold">rhs lion</a></p>
       </motion.div>
     </motion.footer>
   );
 };
-
+// footer
 export default Footer;
