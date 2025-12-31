@@ -19,7 +19,7 @@ import RequestedBooking from "../pages/Dashboard/RequestedBooking/RequestedBooki
 import Transactions from "../pages/Dashboard/Transactions/Transactions";
 import AdvertiseTickets from "../pages/Dashboard/AdvertiseTickets/AdvertiseTickets";
 import RevenueOverview from "../pages/Dashboard/RevenueOverview/RevenueOverview";
-
+// Dashboard
 const Dashboard = () => {
   const { role } = useRole();
   const { isDarkMode } = useTheme();
