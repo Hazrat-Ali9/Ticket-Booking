@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Car } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext/ThemeContext";
-
+// Loading
 const Loading = () => {
   const { isDarkMode } = useTheme();
 
