@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+
+
+* {
+  font-family: "Lato", sans-serif;
+  scrollbar-width: none;
+}
+
+
+
+/* banner Animation */
+@keyframes slideZoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.animate-slideZoom {
+  animation: slideZoom 4s ease-in-out infinite;
+}
+
+/* Added Tickets */
+.input-box {
+  @apply w-full mt-1 px-4 py-2 rounded-lg border 
+  bg-white dark:bg-gray-800 
+  text-gray-900 dark:text-gray-100
+  placeholder-gray-400 dark:placeholder-gray-500
+  focus:ring-2 focus:ring-orange-500 outline-none;
+}
+
+.error {
+  @apply text-red-500 text-sm mt-1;
+}
+
+.input-box::placeholder {
+  @apply text-gray-500;
+}
+
+.dark .input-box::placeholder {
+  color: #9ca3af !important;
+}
+
+.upload-box p {
+  @apply text-gray-500 dark:text-gray-400;
+}
+
+.upload-box svg {
+  @apply text-orange-500;
+}
+
+.dark .input-box {
+  @apply border-gray-700 bg-gray-800 text-gray-100;
+}
+
+.input-box {
+  @apply border-gray-300 bg-white text-gray-800;
+}
+
+.input {
+  @apply w-full px-4 py-2 rounded-xl bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 outline-none;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out;
+}
+.animate-slide-up {
+  animation: slide-up 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+@media (max-width: 430px) {
+  .mobile-card {
+    padding: 12px !important;
+    border-radius: 14px !important;
+  }
+  .mobile-card-title {
+    font-size: 14px !important;
+  }
+  .mobile-card-id {
+    font-size: 11px !important;
+    word-break: break-all;
+  }
+  .mobile-card-amount {
+    font-size: 18px !important;
+  }
+  .mobile-card-date {
+    font-size: 12px !important;
+  }
+  .mobile-wrapper {
+    padding: 10px !important;
+  }
+}
