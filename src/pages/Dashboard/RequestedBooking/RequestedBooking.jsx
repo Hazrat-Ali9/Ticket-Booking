@@ -18,7 +18,7 @@ import {
   Hourglass,
 } from "lucide-react";
 import Loading from "../../../components/Loading/Loading";
-
+// Requested booking
 const RequestedBooking = () => {
   const axiosSecure = useAxiosSecure();
   const { isDarkMode } = useTheme();
