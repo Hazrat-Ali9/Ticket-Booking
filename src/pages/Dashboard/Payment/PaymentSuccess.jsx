@@ -3,7 +3,7 @@ import { useNavigate, useSearchParams } from "react-router";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import { motion } from "framer-motion";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
-
+// payment success
 const PaymentSuccess = () => {
   const [searchParams] = useSearchParams();
   const axiosSecure = useAxiosSecure();
