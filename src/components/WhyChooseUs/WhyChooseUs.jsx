@@ -2,6 +2,7 @@ import React from "react";
 import { useTheme } from "../../context/ThemeContext/ThemeContext";
 import { ShieldCheck, Sparkles, MapPin, Clock } from "lucide-react";
 import { motion } from "framer-motion";
+// why choose us
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0 },
