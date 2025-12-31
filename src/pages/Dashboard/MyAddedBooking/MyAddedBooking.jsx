@@ -15,7 +15,7 @@ import Swal from "sweetalert2";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 
-//  Countdown Time
+//  Countdown time
 const Countdown = ({ date }) => {
   const [countdown, setCountdown] = useState("");
 
