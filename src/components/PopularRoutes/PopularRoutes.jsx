@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext/ThemeContext";
 import { MapPin, ArrowUpRight, Flame } from "lucide-react";
-
+// Popular Routes
 const routes = [
   { from: "Dhaka", to: "Chittagong", price: "৳1200" },
   { from: "Dhaka", to: "Cox's Bazar", price: "৳1500" },
