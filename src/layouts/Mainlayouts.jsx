@@ -4,7 +4,7 @@ import { Outlet } from "react-router";
 import Footer from "../shared/Footer/Footer";
 import { Bounce, ToastContainer } from "react-toastify";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
-
+// main layouts
 const Mainlayouts = () => {
   return (
     <div>
